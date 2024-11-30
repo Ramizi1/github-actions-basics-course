@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-yarn add -DE @devshareacademy/tsconfig
+yarn add -DE @Ramizi1/tsconfig
 ```
 
 ### Install Via GitHub NPM Packages
@@ -15,7 +15,7 @@ You can install this package from the GitHub NPM Package Repository. In order to
 ```bash
 yarn config set @lookio:registry https://npm.pkg.github.com/
 echo "//npm.pkg.github.com/:_authToken=<github_personal_access_token>" > .npmrc
-yarn add -DE @devshareacademy/tsconfig
+yarn add -DE @Ramizi1/tsconfig
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ yarn add -DE @devshareacademy/tsconfig
 
 ```json
 {
-  "extends": "@devshareacademy/tsconfig/tsconfig.json",
+  "extends": "@Ramizi1/tsconfig/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist"
   },
@@ -38,7 +38,7 @@ When you are targeting a higher version of Node.js, check the relevant ECMAScrip
 
 ```json
 {
-  "extends": "@devshareacademy/tsconfig/tsconfig.json",
+  "extends": "@Ramizi1/tsconfig/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
     "target": "ES2021"
@@ -53,7 +53,7 @@ When you are building a NPM package:
 
 ```json
 {
-  "extends": "@devshareacademy/tsconfig",
+  "extends": "@Ramizi1/tsconfig",
   "compilerOptions": {
     "outDir": "dist",
     "declaration": true
@@ -79,6 +79,6 @@ yarn publish:github
 
 ## Shared Configurations
 
-- @devshareacademy/eslint-config: [eslint-config](https://github.com/devshareacademy/eslint-config)
-- @devshareacademy/tsconfig: [tsconfig](https://github.com/devshareacademy/tsconfig)
-- @devshareacademy/prettier-config: [prettier-config](https://github.com/devshareacademy/prettier-config)
+- @Ramizi1/eslint-config: [eslint-config](https://github.com/Ramizi1/eslint-config)
+- @Ramizi1/tsconfig: [tsconfig](https://github.com/Ramizi1/tsconfig)
+- @Ramizi1/prettier-config: [prettier-config](https://github.com/Ramizi1/prettier-config)
