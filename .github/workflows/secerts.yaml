@@ -1,10 +1,10 @@
 name: Secret Example
 
 on:
-  test_secret:
+  workflow_dispatch:
 
 jobs:
-  checkout-repo:
+  test-secret:
     runs-on: ubuntu-latest
 
     steps:
